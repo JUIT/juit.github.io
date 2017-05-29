@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>nevigation</title>
+<link rel="stylesheet" href="css/style.css">
 <style>
 .nav,
 .nav a,
@@ -188,45 +193,75 @@
 }
 
 .nav .nav-column li a:hover { color: #666666; }
-
-*{
-    padding: 0px;
-    margin: 0px;
-}
-#men-wrapper{width:800px;margin:auto;}
+#men-wrapper{clear:both;}
 .navdiv{
     height:250px;
-    background-color:rgba(0,0,0,0.8);
+	background-color:rgba(0,0,0,0.7);
 }
-#inside{
+.nav-column>.inside{
     height:200px;
-    width:200px;
+	width:900px;
     border:1px solid black;
 }
+.inside>.insidel{
+	border:1px solid black;
+	display:inline-block;
+	width:200px;
+	height:200px;
+}
+.inside>.insider{
+	border:1px solid black;
+	display:inline-block;
+	width:650px;
+	height:180px;
+	vertical-align: top;
+	margin-left:20px;
+	padding:10px;
+}
+
 </style>
+</head>
+<body>
+
     <div id="men-wrapper">
    <ul class="nav">
 		<li>
-            <a href="#">HOME</a>
+            <a href="#">ABOUT JUIT</a>
             <div class="navdiv" >
 			<div class="nav-column" >
-					<div id="inside"></div>
+					<div class="inside">
+						<div class="insidel"><img src="img/JUIT4.jpg"/></div>
+					<div class="insider">
+						<div style="text-decoration:underline">About JUIT</div>
+						<div>Overview</div>
+						<ul>
+							<li></li>
+							</ul>
+					</div>
+					</div>
 					</div>
             </div>
 		</li>
         
         <li>
-            <a href="#">LIBRARY</a>
+            <a href="#">ACADEMICS</a>
             <div class="navdiv">
 				<div class="nav-column" >
-                    dfghkijl
+					<div class="inside">
+						<div class="insidel"></div>
+					<div class="insider"></div>
+					</div>
 				</div>
             </div>
 		</li>
         <li>
-            <a href="#">admission</a>
+            <a href="#">DEPARTMENTS</a>
             <div class="navdiv">
 				<div class="nav-column" >
+					<div class="inside">
+					<div class="insidel"></div>
+					<div class="insider"></div>
+					</div>
 					</div>
             </div>
 		</li>
@@ -234,24 +269,46 @@
             <a href="#">LIBRARY</a>
             <div class="navdiv">
 				<div class="nav-column" >
+					<div class="inside">
+						<div class="insidel"></div>
+					<div class="insider"></div>
+					</div>
 					</div>
             </div>
 		</li>
         <li>
-            <a href="#">download</a>
+            <a href="#">LIFE@JUIT</a>
             <div class="navdiv">
 				<div class="nav-column" >
-					
+					<div class="inside">
+						<div class="insidel"></div>
+					<div class="insider"></div>
+					</div>
 					</div>
             </div>
 		</li>
         <li>
-            <a href="#">LIBRARY</a>
+            <a href="#">TRAINING & PLACEMENTS</a>
             <div class="navdiv">
 				<div class="nav-column" >
+					<div class="inside">
+						<div class="insidel"></div>
+					<div class="insider"></div>
+					</div>
 					</div>
             </div>
 		</li>
+		<li>
+			<a href="#">CONTACT US</a>
+			  <div class="navdiv">
+				<div class="nav-column" >
+					<div class="inside">
+						<div class="insidel"></div>
+					<div class="insider"></div>
+					</div>
+					</div>
+            </div>
+			</li>
         <li class="nav-search">
 			<form action="#">
 				<input type="text" placeholder="Search...">
@@ -259,3 +316,5 @@
 			</form>
 		</li>
 </div>
+</body>
+</html>
